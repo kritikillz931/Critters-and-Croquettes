@@ -11,8 +11,8 @@ class pettingAreaAnimal:
         self.shift = shift
         self.food = food
 
-    def feed(self):
-        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+    def __str__(self):
+        return f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}'
 
 Johnny = pettingAreaAnimal("1", "Johnny", "Horse", "Midday", "Hay")
 Diego = pettingAreaAnimal("2", "Diego", "Camel", "Midday", "Grains")
@@ -20,4 +20,4 @@ Milo = pettingAreaAnimal("3", "Milo", "Monkey", "Midday", "Banana")
 Joe = pettingAreaAnimal("4", "Joe", "Elephant", "Midday", "Roots" )
 Snoop = pettingAreaAnimal("5", "Snoop", "Cat", "Midday", "Everything")
 
-print(Snoop.feed())
+print(Johnny)

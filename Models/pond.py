@@ -12,8 +12,8 @@ class pondAreaAnimal:
         self.food = food
 
          
-    def feed(self):
-        print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
+    def __str__(self):
+        return f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}'
 
 
 
@@ -23,4 +23,4 @@ Scott = pondAreaAnimal("3", "Scott", "Goldfish", "Morning", "Fish food")
 Sean = pondAreaAnimal("4", "Sean", "Betafish", "Morning", "Fish food")
 Larry = pondAreaAnimal("5", "Larry", "Angler fish", "Morning", "Fish food")
 
-print(Ben.feed())
+print(Nemo)
