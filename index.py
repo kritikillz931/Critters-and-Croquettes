@@ -1,5 +1,5 @@
-from animals import Animal, AnglerFish, Betafish, Camel, Cat, Clownfish, Elephant, Giraffe, Goldfish, Horse, Monkey, Shark, Snake
-from attractions import SnakePit, PettingZoo, Wetlands, Attraction
+from animals import Aniamal, AnglerFish, Betafish, Camel, Cat, Clownfish, Elephant, Giraffe, Goldfish, Horse, Monkey, Shark, Snake
+from attractions import SnakePit, PettingZoo, Wetlands, Attraction, snakePit, wetlands
 
 
 Patrick = Snake("Patrick", "Python", "Evening", "Mice")

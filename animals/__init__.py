@@ -1,5 +1,4 @@
 from .animals import Animal
-from .snake import Snake
 from .anglerfish import AnglerFish
 from .betafish import Betafish
 from .camel import Camel
